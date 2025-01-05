@@ -3,18 +3,36 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+:root {
+    --bg-color: #f4f4f9;
+    --text-color: #333;
+    --header-bg: #333;
+    --header-text: #fff;
+    --button-bg: rgba(0, 0, 0, 0.5);
+    --button-bg-hover: rgba(0, 0, 0, 0.8);
+    --card-bg: #fff;
+}
+[data-theme="dark"]
+{
+    --bg-color: #121212;
+    --text-color: #e0e0e0;
+    --header-bg: #1f1f1f;
+    --header-text: #e0e0e0;
+    --button-bg: rgba(255, 255, 255, 0.3);
+    --button-bg-hover: rgba(255, 255, 255, 0.6);
+    --card-bg: #1f1f1f;
+}
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    color: #333;
-    background-color: #f4f4f9;
+    color: var(--text-color);
+    background-color: var(--bg-color);
     margin: 0;
 }
 
 header {
-    background: #333;
-    color: #fff;
+    background: var(--header-bg);
+    color: var(--header-text);
     padding: 1rem 0;
     text-align: center;
 }
@@ -36,7 +54,7 @@ header h1 {
 
 .intro p {
     font-size: 1.2rem;
-    color: #555;
+    color: var(--text-color);
 }
 
 .images, .video {
@@ -94,8 +112,8 @@ header h1 {
 }
 
 .slider-buttons button {
-    background-color: rgba(0, 0, 0, 0.5);
-    color: #fff;
+    background-color: var(--button-bg);
+    color: var(--header-text);
     border: none;
     padding: 0.5rem 1rem;
     cursor: pointer;
@@ -103,7 +121,7 @@ header h1 {
 }
 
 .slider-buttons button:hover {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: var(--button-bg-hover);
 }
 
 .video iframe {
@@ -118,7 +136,7 @@ header h1 {
 }
 
 .details {
-    background: #fff;
+    background: var(--card-bg);
     padding: 2rem;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -131,14 +149,29 @@ header h1 {
 
 .details p {
     font-size: 1.1rem;
-    color: #555;
+    color: var(--text-color);
     margin-bottom: 1rem;
 }
 
 footer {
     background: #333;
-    color: #fff;
+    color: var(--header-text);
     text-align: center;
     padding: 1rem 0;
     margin-top: 2rem;
+}
+.toggle-theme {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: var(--button-bg);
+    color: var(--header-text);
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.toggle-theme:hover {
+    background: var(--button-bg-hover);
 }

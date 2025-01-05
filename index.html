@@ -1,188 +1,212 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>I'm Rafael Costa</title>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>I'm Rafael Alula</title>
 	<link href="style/style.css" rel="stylesheet" type="text/css">
-	<link rel="shortcut icon" href="images/fsgQuad.ico"/> 
+	<link rel="shortcut icon" href="images/fsgQuad.ico"/>
+	<script type="text/javascript">
+		document.addEventListener('DOMContentLoaded', () => {
+			const themeToggleButton = document.createElement('button');
+			themeToggleButton.textContent = 'Toggle Dark/Light Mode';
+			themeToggleButton.classList.add('toggle-theme');
+			document.body.appendChild(themeToggleButton);
+
+			// Load the saved theme from localStorage, or default to 'light'
+			const savedTheme = localStorage.getItem('theme') || 'light';
+			document.documentElement.setAttribute('data-theme', savedTheme);
+
+			themeToggleButton.addEventListener('click', () => {
+				const currentTheme = document.documentElement.getAttribute('data-theme');
+				const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+				document.documentElement.setAttribute('data-theme', newTheme);
+				localStorage.setItem('theme', newTheme); // Save the theme to localStorage
+			});
+
+			// Set default theme to light
+			//document.documentElement.setAttribute('data-theme', 'light');
+		});
+		document.addEventListener('DOMContentLoaded', () => {
+			const track = document.querySelector('.slider-track');
+			const prevButton = document.querySelector('.slider-btn.prev');
+			const nextButton = document.querySelector('.slider-btn.next');
+			const items = document.querySelectorAll('.project-item');
+
+			let currentIndex = 0;
+			const itemWidth = items[0].getBoundingClientRect().width + 20; // Including margin
+
+			function updateSliderPosition() {
+				track.style.transform = `translateX(-${currentIndex * itemWidth}px)`;
+			}
+
+			nextButton.addEventListener('click', () => {
+				if (currentIndex < items.length - 1) {
+					currentIndex++;
+					updateSliderPosition();
+				}
+			});
+
+			prevButton.addEventListener('click', () => {
+				if (currentIndex > 0) {
+					currentIndex--;
+					updateSliderPosition();
+				}
+			});
+		});
+
+	</script>
 </head>
 <body>
 <header>
 	<div class="logoTypo">
-		<img class="header-img" src="images/profileImas.png" />
-		<a href="index.html"><b>   I'm Rafael Alula</b></a>
+		<img class="header-img" src="images/profileImas.png" alt="Profile Image">
+		<a href="index.html"><b>I'm Rafael Alula</b></a>
 	</div>
 </header>
 <div class="underHeaderImage"></div>
-	<div class="lower-body">
-		<div class="profile-info">
-			<div class="profile-image"></div>
-			<div class="profilered-info">
-				<h1>Rafael Costa</h1> 
-				<p>🕹️ Game Programmer</p>
-				<p>📌 Based in Salvador, Brazil.</p>
-			</div>
+<main class="lower-body">
+	<section class="profile-info">
+		<div class="profile-image"></div>
+		<div class="profilered-info">
+			<h1>Rafael Alula Costa</h1>
+			<p>🕹️ Game Programmer</p>
+			<p>📌 Based in Salvador, Brazil</p>
 		</div>
-		<div class="center-div">
-			<div class="about-me">
-				<h2>About me</h2>
-				<p>I am a passionate gamer with a degree in Game Design, focused on Game Programming. I have been working in the game industry since 2019.</p>
-				<p>I have also worked as a Game Designer, Lead Programmer, and Unity generalist.</p>
-				<p>I'm very experienced in working with Unity and Unreal engine, GitHub and dev kits/tools.</p>
-			</div>
-			<div class="quick-acess">
-				<h2>Quick Access</h2>
-				<p>🎮 <a href="https://fallseasongames.itch.io/">Itch.io</a></p>
-				<p>💼 <a href="https://www.linkedin.com/in/rafael-costa-530225182/">LinkedIn</a></p>
-				<p>📩 rafael_costa_alula@hotmail.com</p>
-			</div>
+	</section>
+	<section class="center-div">
+		<div class="about-me">
+			<h2>About Me</h2>
+			<p>I am a passionate gamer with a degree in Game Design, focused on Game Programming. I have been working in the game industry since 2019.</p>
+			<p>I have also worked as a Game Designer, Lead Programmer, and Unity generalist.</p>
+			<p>I'm very experienced in working with Unity and Unreal engine, GitHub, and dev kits/tools.</p>
 		</div>
-		<section class="projetos">
-			<div class="p-center-div">
-				<div class="p-about-me">
-					<h1>🎮 Projects I've worked on</h1>
-				</div>
-			</div>
-			<div class="lower-center-div">
-				<div class="gallery">
-					<a href="pages/games/izi.html">
-						<img src="images/izi.png" alt="Cinque Terre" width="200" height="200">
-					</a>
-					<div class="desc">
-						<h1>Izi: The Two Tales</h1>
+		<div class="quick-acess">
+			<h2>Quick Access</h2>
+			<p>🎮 <a href="https://fallseasongames.itch.io/" target="_blank">Itch.io</a></p>
+			<p>💼 <a href="https://www.linkedin.com/in/rafael-costa-530225182/" target="_blank">LinkedIn</a></p>
+			<p>📩 <a href="mailto:rafael_costa_alula@hotmail.com">rafael_costa_alula@hotmail.com</a></p>
+		</div>
+	</section>
+	<section class="projects">
+		<h2>Projects</h2>
+		<div class="project-slider">
+			<div class="slider-track">
+				<div class="project-item">
+					<a href="pages/games/izi.html"><img src="images/btl.png" alt="Project 1"></a>
+					<div class="info">
+						<h3>Izi: The Two Tales</h3>
 						<p>Role: Lead Programmer</p>
 						<p>Engine: Unity Engine</p>
 						<p>Genre: Soulslike(Action RPG)</p>
 						<p>Platform: PC/Steam</p>
 					</div>
 				</div>
-				<div class="gallery">
-					<a href="pages/games/pelorink.html">
-						<img src="images/pelorink.png" alt="Cinque Terre" width="200" height="200">
-					</a>
-					<div class="desc">
-						<h1>PelorInk</h1>
-						<p>Role: Gameplay/Mechanics Programmer</p>
-						<p>Engine: Unity Engine</p>
-						<p>Genre: 3D Adventure</p>
-						<p>Platform: PC/Steam</p>
-					</div>
-				</div>
-
-				<div class="gallery">
-					<a href="pages/games/ezap.html">
-						<img src="images/ezap.png" alt="Forest" width="600" height="400">
-					</a>
-					<div class="desc">
-						<h1>Enaldinho no Mundo do ZAP</h1>
+				<div class="project-item">
+					<a href="pages/games/ezap.html"><img src="images/ezap.png" alt="Project 2"></a>
+					<div class="info">
+						<h3>Enaldinho no Mundo do ZAP</h3>
 						<p>Role: Lead Programmer</p>
 						<p>Engine: Unity Engine</p>
 						<p>Genre: Third Person Shoooter</p>
 						<p>Platform: Mobile(Android/iOS)</p>
 					</div>
 				</div>
-
-				<div class="gallery">
-					<a href="pages/games/jumpstar.html">
-						<img src="images/jumpstar.png" alt="Forest" width="600" height="400">
-					</a>
-					<div class="desc">
-						<h1>Jump Star</h1>
+				<div class="project-item">
+					<a href="pages/games/jumpstar.html"><img src="images/jumpstar.png" alt="Project 3"></a>
+					<div class="info">
+						<h3>Jump Star</h3>
 						<p>Role: Solo Programmer</p>
 						<p>Engine: Unity Engine</p>
 						<p>Genre: Hyper Casual</p>
 						<p>Platform: Mobile(Android)</p>
 					</div>
 				</div>
-
-				<div class="gallery">
-					<a href="pages/games/sticksamurai.html">
-						<img src="images/sticksamurai.png" alt="Northern Lights" width="600" height="400">
-					</a>
-					<div class="desc">
-						<h1>Stick Samurai</h1>
-						<p>Role: Solo Programmer</p>
-						<p>Engine: Macromedia(Current Adobe) Flash</p>
-						<p>Genre: Platform</p>
-						<p>Platform: WEB</p>
-					</div>
-				</div>
-
-				<div class="gallery">
-					<a href="pages/games/domino.html">
-						<img src="images/dominiking.png" alt="Mountains" width="600" height="400">
-					</a>
-					<div class="desc">
-						<h1>DomniKing: Dominó</h1>
-						<p>Role: Solo Programmer</p>
-						<p>Engine: Unity Engine</p>
-						<p>Genre: Board Game</p>
-						<p>Platform: Mobile(Android)</p>
-					</div>
-				</div>
-				<div class="gallery">
-					<a href="pages/games/btl.html">
-						<img src="images/btl.png" alt="Mountains" width="600" height="400">
-					</a>
-					<div class="desc">
-						<h1>Before The Legends</h1>
-						<p>Role: Solo Programmer</p>
-						<p>Engine: Unity Engine</p>
-						<p>Genre: Classic MMORPG</p>
-						<p>Platform: PC/Standalone</p>
-					</div>
-				</div>
-				<div class="gallery">
-					<a href="pages/games/snailsParty.html">
-						<img src="images/snails.png" alt="Mountains" width="600" height="400">
-					</a>
-					<div class="desc">
-						<h1>Snails Party</h1>
+				<div class="project-item">
+					<a href="pages/games/snailsParty.html"><img src="images/snails.png" alt="Project 4"></a>
+					<div class="info">
+						<h3>Snails Party</h3>
 						<p>Role: Lead Programmer</p>
 						<p>Engine: Unity Engine</p>
 						<p>Genre: Casual/Board Game</p>
 						<p>Platform: PC/Mobile</p>
 					</div>
 				</div>
-				<div class="gallery">
-					<a href="pages/games/desafiodst.html">
-						<img src="images/dst.png" alt="Mountains" width="600" height="400">
-					</a>
-					<div class="desc">
-						<h1>Desafio DST</h1>
+				<div class="project-item">
+					<a href="pages/games/pelorink.html"><img src="images/pelorink.png" alt="Project 5"></a>
+					<div class="info">
+						<h3>PelorInk</h3>
+						<p>Role: Gameplay/Mechanics Programmer</p>
+						<p>Engine: Unity Engine</p>
+						<p>Genre: 3D Adventure</p>
+						<p>Platform: PC/Steam</p>
+					</div>
+				</div>
+				<div class="project-item">
+					<a href="pages/games/desafiodst.html"><img src="images/dst.png" alt="Project 6"></a>
+					<div class="info">
+						<h3>Desafio DST</h3>
 						<p>Role: Lead Programmer</p>
 						<p>Engine: Unity Engine</p>
 						<p>Genre: Educational/Quiz</p>
 						<p>Platform: Mobile/WEB</p>
 					</div>
 				</div>
-				<div class="gallery">
-					<a href="pages/games/oncochefs.html">
-						<img src="images/onco.png" alt="Mountains" width="600" height="400">
-					</a>
-					<div class="desc">
-						<h1>Onco Chefs</h1>
+				<div class="project-item">
+					<a href="pages/games/oncochefs.html"><img src="images/onco.png" alt="Project 7"></a>
+					<div class="info">
+						<h3>Onco Chefs</h3>
 						<p>Role: Lead Programmer</p>
 						<p>Engine: Unity Engine</p>
 						<p>Genre: Educational</p>
 						<p>Platform: Mobile/WEB</p>
 					</div>
 				</div>
-				<div class="gallery">
-					<a href="pages/games/compact.html">
-						<img src="images/compact.png" alt="Mountains" width="600" height="400">
-					</a>
-					<div class="desc">
-						<h1>Compact Laboratories</h1>
+				<div class="project-item">
+					<a href="pages/games/compact.html"><img src="images/compact.png" alt="Project 8"></a>
+					<div class="info">
+						<h3>Compact Laboratories</h3>
 						<p>Role: Solo Programmer</p>
 						<p>Engine: Unity Engine</p>
 						<p>Genre: Educational/Simulator</p>
 						<p>Platform: PC/WEB</p>
 					</div>
 				</div>
+				<div class="project-item">
+					<a href="pages/games/btl.html"><img src="images/fotoConteudo.png" alt="Project 9"></a>
+					<div class="info">
+						<h3>Before the Legends - Online</h3>
+						<p>Role: Solo Programmer</p>
+						<p>Engine: Unity Engine</p>
+						<p>Genre: Classic MMORPG</p>
+						<p>Platform: PC/Standalone</p>
+					</div>
+				</div>
+				<div class="project-item">
+					<a href="pages/games/domino.html"><img src="images/dominiking.png" alt="Project 10"></a>
+					<div class="info">
+						<h3>DomniKing: Dominó</h3>
+						<p>Role: Solo Programmer</p>
+						<p>Engine: Unity Engine</p>
+						<p>Genre: Board Game</p>
+						<p>Platform: Mobile(Android)</p>
+					</div>
+				</div>
+				<div class="project-item">
+					<a href="pages/games/sticksamurai.html"><img src="images/sticksamurai.png" alt="Project 11"></a>
+					<div class="info">
+						<h3>Stick Samurai Trilogy</h3>
+						<p>Role: Solo Programmer</p>
+						<p>Engine: Macromedia(Current Adobe) Flash</p>
+						<p>Genre: Platform</p>
+						<p>Platform: WEB</p>
+					</div>
+				</div>
 			</div>
-		</section>
-	</div>
+			<button class="slider-btn prev">‹</button>
+			<button class="slider-btn next">›</button>
+		</div>
+	</section>
+</main>
 </body>
 </html>
