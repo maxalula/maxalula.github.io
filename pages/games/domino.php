@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DomniKing</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="shortcut icon" href="../../images/fsgQuad.ico"/>
+    <link href="resources/games.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="resources/games.js"></script>
+</head>
+<body>
+    <header>
+        <h1>DomniKing: Dominó</h1>
+    </header>
+    <div class="container">
+        <section class="intro">
+        </section>
+
+        <section class="images">
+            <h2>Game Screenshots</h2>
+            <div class="slider-container">
+                <div class="slider">
+                    <img src="Screenshots/dominiking.png" alt="Screenshot 1">
+                </div>
+                <div class="slider-buttons">
+                    <button class="prev">&#8679;</button>
+                    <button class="next">&#8681;</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="details">
+                    <h2>About the Game</h2>
+                    <p><i>DomniKing</i> is a multiplayer Domino game made for 1v1 match against players or AI.</p>
+                    <h3>Key features include:</h3>
+                    <p>Online multiplayer</p>
+                    <p>Customized Board and Pieces</p>
+                    <p>Rank system</p>
+                    <br>
+                    <h3>Game Profile</h3>
+                    <p>Development Status: Released 2024.</p>
+                    <p>Engine and Programming Language: Unity, C#, Photon PUN 2.</p>
+                </section>
+                <br>
+                <section class="details">
+                    <h2>My Contribuitions</h2>
+                    <p>This is a solo project, for study purposes and the intent to further enhance portfolio.</p>
+                   <p>I've developed the multiplayer module using Photon PUN2, game logic, UI interactions.</p>
+                </section>
+            <br>
+                        <section class="details">
+                            <h2>Play it on Google Play(Android)</h2>
+                            <h3><a href="https://play.google.com/store/apps/details?id=com.FallSeasonGames.Domniking&pli=1">GAME PAGE</a></h3>
+                        </section>
+    </div>
+    <footer>
+    	<p>Copyright &copy; 2025 Rafael Alula. All rights reserved.</p>
+    </footer>
+</body>
+</html>

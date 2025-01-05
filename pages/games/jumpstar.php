@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jump Star</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="shortcut icon" href="../../images/fsgQuad.ico"/>
+    <link href="resources/games.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="resources/games.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Jump Star</h1>
+    </header>
+    <div class="container">
+        <section class="intro">
+        </section>
+
+        <section class="images">
+            <h2>Game Screenshots</h2>
+            <div class="slider-container-long">
+                <div class="slider">
+                    <img src="Screenshots/jumpstar/Screenshot 1.png" alt="Screenshot 1">
+                    <img src="Screenshots/jumpstar/Screenshot 2.png" alt="Screenshot 1">
+                    <img src="Screenshots/jumpstar/Screenshot 3.png" alt="Screenshot 1">
+                    <img src="Screenshots/jumpstar/Screenshot 4.png" alt="Screenshot 1">
+                </div>
+                <div class="slider-buttons">
+                    <button class="prev">&#8679;</button>
+                    <button class="next">&#8681;</button>
+                </div>
+            </div>
+        </section>
+    
+       <section class="details">
+                   <h2>About the Game</h2>
+                   <p><i>Jump Star</i> is a hyper casual, infinite jumping.</p>
+                   <br>
+                   <h3>Game Profile</h3>
+                   <p>Development Status: Released 2023.</p>
+                   <p>Engine and Programming Language: Unity, C#.</p>
+               </section>
+               <br>
+               <section class="details">
+                   <h2>My Contribuitions</h2>
+                  <p>In this project I've worked as the solo programmer and in game design, taking part in brainstorms to discuss mechanics and development.</p>
+               </section>
+           <br>
+                                   <section class="details">
+                                       <h2>Play it on Google Play(Android)</h2>
+                                       <h3><a href="https://play.google.com/store/apps/details?id=com.FishHeadStudios.JumpStar">GAME PAGE</a></h3>
+                                   </section>
+    </div>
+    <footer>
+    	<p>Copyright &copy; 2025 Rafael Alula. All rights reserved.</p>
+    </footer>
+</body>
+</html>

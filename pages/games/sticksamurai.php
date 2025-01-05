@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Stick Samurai</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="shortcut icon" href="../../images/fsgQuad.ico"/>
+    <link href="resources/games.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="resources/games.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Stick Samurai Trilogy</h1>
+    </header>
+    <div class="container">
+        <section class="intro">
+        </section>
+
+        <section class="images">
+            <h2>Game Screenshots</h2>
+            <div class="slider-container">
+                <div class="slider">
+                    <img src="Screenshots/sticksamurai1-1.png" alt="Screenshot 1">
+                    <img src="Screenshots/sticksamurai2-1.png" alt="Screenshot 2">
+                    <img src="Screenshots/sticksamurai2-2.png" alt="Screenshot 3">
+                </div>
+                <div class="slider-buttons">
+                    <button class="prev">&#8679;</button>
+                    <button class="next">&#8681;</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="details">
+            <h2>About the Game</h2>
+            <p>This 3 game series was my first contact with programming and game design.</p>
+            <p>It is a series of platform games with engaging mechanics and enemies.</p>
+            <p>It was built using Macromedia Flash Player 8, and ActionScript as the scripting language.</p>
+            <p>The last game was released in october, 2009.</p>
+        </section>
+        <br>
+        <section class="details">
+            <h2>My Contribuitions</h2>
+            <p>There was a lot of challenges during these projects, and much more learning than I could have ever imagined. In those I could grasp the understanting of object oriented programming, actions, events and input management.</p>
+        </section>
+    <br>
+                                            <section class="details">
+                                                <h2>Play it at</h2>
+                                                <h3><a href="https://fallseasongames.itch.io/stick-samurai">GAME PAGE</a></h3>
+                                            </section>
+    </div>
+    <footer>
+    	<p>Copyright &copy; 2025 Rafael Alula. All rights reserved.</p>
+    </footer>
+</body>
+</html>

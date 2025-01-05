@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Onco Chefs</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="shortcut icon" href="../../images/fsgQuad.ico"/>
+    <link href="resources/games.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="resources/games.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Onco Chefs</h1>
+    </header>
+    <div class="container">
+        <section class="intro">
+        </section>
+
+        <section class="images">
+            <h2>Game Screenshots</h2>
+            <div class="slider-container">
+                <div class="slider">
+                    <img src="Screenshots/onco_game01.png" alt="Screenshot 1">
+                    <img src="Screenshots/onco_game02.png" alt="Screenshot 2">
+                    <img src="Screenshots/onco_game03.png" alt="Screenshot 3">
+                </div>
+                <div class="slider-buttons">
+                    <button class="prev">&#8679;</button>
+                    <button class="next">&#8681;</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="details">
+                    <h2>About the Game</h2>
+                    <p><i>Onco Chefs</i> is a 3D collect and deliver game to raise awareness towards especific diet plans during a cancer treatment.</p>
+                    <h3>Key features include:</h3>
+                    <p>Engaging gameplay</p>
+                    <p>Character customization</p>
+                    <br>
+                    <h3>Game Profile</h3>
+                    <p>Development Status: Released 2023.</p>
+                    <p>Engine and Programming Language: Unity, C#.</p>
+                </section>
+                <br>
+                <section class="details">
+                    <h2>My Contribuitions</h2>
+                   <p>I took part as the solo programmer of the project, building the game logic.</p>
+                </section>
+    <br>
+                <section class="details">
+                    <h2>Play it in the browser</h2>
+                    <h3><a href="http://140.238.191.214/Portifolio/WebGL/SantaClara/OncoGame">GAME PAGE</a></h3>
+            </section>
+    </div>
+    <footer>
+    	<p>Copyright &copy; 2025 Rafael Alula. All rights reserved.</p>
+    </footer>
+</body>
+</html>

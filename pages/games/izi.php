@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Izi: The Two Tales</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="shortcut icon" href="../../images/fsgQuad.ico"/>
+    <link href="resources/games.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="resources/games.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Izi: The Two Tales</h1>
+    </header>
+    <div class="container">
+        <section class="intro">
+        </section>
+
+        <section class="images">
+            <h2>Game Screenshots</h2>
+            <div class="slider-container">
+                <div class="slider">
+                    <img src="Screenshots/izi/SS1.png" alt="Screenshot 1">
+                    <img src="Screenshots/izi/SS2.png" alt="Screenshot 2">
+                    <img src="Screenshots/izi/SS3.png" alt="Screenshot 3">
+                    <img src="Screenshots/izi/SS4.png" alt="Screenshot 4">
+                    <img src="Screenshots/izi/SS5.png" alt="Screenshot 5">
+                    <img src="Screenshots/izi/SS6.png" alt="Screenshot 6">
+                    <img src="Screenshots/izi/SS7.png" alt="Screenshot 7">
+                    <img src="Screenshots/izi/SS8.png" alt="Screenshot 8">
+                    <img src="Screenshots/izi/SS9.png" alt="Screenshot 9">
+                </div>
+                <div class="slider-buttons">
+                    <button class="prev">&#8679;</button>
+                    <button class="next">&#8681;</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="video">
+            <h2>Gameplay Video</h2>
+            <iframe src="https://www.youtube.com/embed/0o6gX4md3yA?si=4uqOn_X8kqpIS-yi" allowfullscreen></iframe>
+        </section>
+
+        <section class="details">
+                    <h2>About the Game</h2>
+                    <p><i>Izi: The Two Tales</i> is a SoulsLike(Action-RPG) open world game.</p>
+                    <p>It takes reference in games like Dark souls, bloodborne and Elden ring, also features a 2 main character storytelling system.</p>
+                    <h3>Key features include:</h3>
+                    <p>Engaging combat and boss fight</p>
+                    <p>Item and level system</p>
+                    <br>
+                    <h3>Game Profile</h3>
+                    <p>Development Status: Demo released in 2021, project still in development.</p>
+                    <p>Engine and Programming Language: Unity, C#.</p>
+                </section>
+                <br>
+                <section class="details">
+                    <h2>My Contribuitions</h2>
+                   <p>As the solo programmer I've worked from the ground up into all modules of the game, and game/level design</p>
+                   <p>Due the large scale, I rely heavily in design patterns for code scalabily and maintenance.</p>
+                </section>
+            <br>
+                                    <section class="details">
+                                        <h2>Play the demo at</h2>
+                                        <h3><a href="https://fallseasongames.itch.io/izi-the-two-tales">GAME PAGE</a></h3>
+                                    </section>
+    </div>
+    <footer>
+    	<p>Copyright &copy; 2025 Rafael Alula. All rights reserved.</p>
+    </footer>
+</body>
+</html>

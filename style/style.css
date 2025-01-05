@@ -1,0 +1,189 @@
+html
+{
+	margin: 0;
+	padding: 0;
+}
+body {
+	margin: 0;
+	padding: 0;
+	color: white;
+	background-color: rgb(19,19,19);
+	font-family: Calibri;
+}
+.lower-body {
+	background-color: rgb(19,19,19);
+	margin-top:50px;
+}
+
+.logoTypo
+{
+	width: 100%;
+	padding: 10px;
+	background-color: rgb(19,19,19);
+	display: flex;
+	font-size: 16px;
+	float: left;
+	box-sizing: border-box;
+}
+.logoTypo a
+{
+	color: white;
+	text-decoration: none;
+}
+.logoTypo img
+{
+	width: 17px; /* Adjust this value as needed */
+    height: auto; /* Maintains aspect ratio */
+}
+.underHeaderImage
+{
+	width:100%;
+	min-height: 380px;
+	margin: 0;
+	/* The image used 
+	background-color:red;*/
+	background-image: url("../images/ima.png");
+
+	/* Center and scale the image nicely */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: block;
+}
+.center
+{
+	background-color:red;
+}
+footer
+{
+	background: #333;
+	color: #fff;
+	text-align: center;
+	padding: 1rem 0;
+	margin-top: 2rem;
+}/*
+.instagram {
+	position: absolute;
+	background-image: url("../images/instagram.png");
+	left: 45%;
+	width: 50px;
+	height: 50px;
+	object-fit: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.youtube {
+	position: relative;
+	background-image: url("../images/youtube.png");
+	left: 51%;
+	width: 54px;
+	height: 38px;
+	object-fit: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}*/
+
+.center-div {
+	width: 100%;
+	max-width: 90%;
+	margin: auto;
+	margin-top: 15px;
+	padding: 0 2%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.lower-center-div {
+	
+	margin: auto;
+	padding: 0 2%;
+	justify-content: center;
+	background-color: rgb(19,19,19);
+}
+/* Profile Image Styling */
+.profile-image 
+{
+	position: relative;
+	left: 43%;
+	width: 240px;
+	height: 240px;
+	object-fit: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: block;
+	background-image: url("../images/profileImage.jpg");
+	border-radius: 50%;
+	border: 2px solid #ddd;
+}
+.quick-acess, .about-me {
+	margin-left: 10px;
+	margin-right: 10px;
+	display: inline-block;
+	width: 300px;
+	height: 300px;
+	left: 50%;
+}
+.p-center-div {
+	width: 100%;
+	max-width: 90%;
+	margin: auto;
+	margin-top: 15px;
+	padding: 0 2%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.p-about-me {
+	margin-left: 10px;
+	margin-right: 10px;
+	display: inline-block;
+	width: 300px;
+	left: 50%;
+}
+.profile-info
+{
+	text-align: center;
+}
+.profile-info h2 {
+    margin: 10px 0; /* Spacing around the name */
+    font-size: 1.5rem; /* Adjust font size */    
+}
+
+.profile-info p {
+    margin: 5px 0; /* Spacing between paragraphs */
+    font-size: 1rem; /* Adjust font size */
+}
+.quick-acess a {
+	color: white;
+	text-decoration: none;
+}
+.projetos {
+	background-color: rgb(19,19,19);
+}
+div.gallery {
+	background-color: rgb(19,19,19);
+	margin: 50px;
+	border: 1px solid #ccc;
+	float: left;
+	width: 300px;
+}
+
+div.gallery:hover
+{
+	border: 1px solid #777;
+}
+
+div.gallery img
+{
+	width: 100%;
+	height: auto;
+}
+
+div.desc
+{
+	padding: 15px;
+	text-align: center;
+}

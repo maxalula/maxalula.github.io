@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PelorInk</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="shortcut icon" href="../../images/fsgQuad.ico"/>
+    <link href="resources/games.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="resources/games.js"></script>
+</head>
+<body>
+    <header>
+        <h1>PelorInk</h1>
+    </header>
+    <div class="container">
+        <section class="intro">
+        </section>
+
+        <section class="images">
+            <h2>Game Screenshots</h2>
+            <div class="slider-container">
+                <div class="slider">
+                    <img src="Screenshots/Pelorink/me.png" alt="Screenshot 1">
+                    <img src="Screenshots/Pelorink/p21.png" alt="Screenshot 1">
+                    <img src="Screenshots/Pelorink/p22.png" alt="Screenshot 1">
+                    <img src="Screenshots/Pelorink/p24.png" alt="Screenshot 1">
+                    <img src="Screenshots/Pelorink/p25.png" alt="Screenshot 1">
+                    <img src="Screenshots/Pelorink/p26.png" alt="Screenshot 1">
+                </div>
+                <div class="slider-buttons">
+                    <button class="prev">&#8679;</button>
+                    <button class="next">&#8681;</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="video">
+            <h2>Gameplay Video</h2>
+            <iframe src="https://www.youtube.com/embed/_cQJ71N7Ik0?si=x0mZfD94ENR9R3Ju" allowfullscreen></iframe>
+        </section>
+
+        <section class="details">
+            <h2>About the Game</h2>
+            <p>This was conceived during the 2021 Game Jam Plus, with further development lasting 1 month post the jam.</p>
+        </section>
+        <br>
+        <section class="details">
+            <h2>My Contribuitions</h2>
+            <p>The greatest challenge as the solo programmer and game designer was to meet the desired outcome in such a short deadline.</p>
+        </section>
+    <br>
+                                        <section class="details">
+                                            <h2>Play it at</h2>
+                                            <h3><a href="https://fallseasongames.itch.io/pelorink">GAME PAGE</a></h3>
+                                        </section>
+    </div>
+    <footer>
+    	<p>Copyright &copy; 2025 Rafael Alula. All rights reserved.</p>
+    </footer>
+</body>
+</html>

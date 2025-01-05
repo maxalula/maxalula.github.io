@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Desafio DST</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="shortcut icon" href="../../images/fsgQuad.ico"/>
+    <link href="resources/games.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="resources/games.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Desafio DST</h1>
+    </header>
+    <div class="container">
+        <section class="intro">
+        </section>
+
+        <section class="images">
+            <h2>Game Screenshots</h2>
+            <div class="slider-container-long">
+                <div class="slider">
+                    <img src="Screenshots/dst_game01.png" alt="Screenshot 1">
+                    <img src="Screenshots/dst_game02.png" alt="Screenshot 2">
+                    <img src="Screenshots/dst_game03.png" alt="Screenshot 3">
+                </div>
+                <div class="slider-buttons">
+                    <button class="prev">&#8679;</button>
+                    <button class="next">&#8681;</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="details">
+                    <h2>About the Game</h2>
+                    <p><i>Desafio DST</i> is a Quiz game, to raise awareness towards SDT's, released during Carnaval(a brazilian event)</p>
+                    <p>The project is also a template, to sell a custom Quiz, to a company for basically any topic(Like training employees, or test school students)</p>
+                    <br>
+                    <h3>Game Profile</h3>
+                    <p>Development Status: Released in 2023.</p>
+                    <p>Engine and Programming Language: Unity, C#, JSON, MySQL, PHP.</p>
+                </section>
+                <br>
+                <section class="details">
+                    <h2>My Contribuitions</h2>
+                   <p>I took part as the solo programmer of the project, building the logic behind the Quiz, and also abstracting Questions/Answers using .JSON files, or backend(php/mysql), to make it flexible and editable.</p>
+                </section>
+            <br>
+            <section class="details">
+                <h2>Play it in the browser</h2>
+                <h3><a href="http://140.238.191.214/Portifolio/WebGL/SantaClara/DstGame">GAME PAGE</a></h3>
+            </section>
+    </div>
+    <footer>
+    	<p>Copyright &copy; 2025 Rafael Alula. All rights reserved.</p>
+    </footer>
+</body>
+</html>

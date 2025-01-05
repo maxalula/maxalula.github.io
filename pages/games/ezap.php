@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Enaldinho no Mundo do ZAP</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="shortcut icon" href="../../images/fsgQuad.ico"/>
+    <link href="resources/games.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="resources/games.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Enaldinho no Mundo do ZAP</h1>
+    </header>
+    <div class="container">
+        <section class="intro">
+        </section>
+
+        <section class="images">
+            <h2>Game Screenshots</h2>
+            <div class="slider-container">
+                <div class="slider">
+                    <img src="Screenshots/enaldinho/EnaldinhoPrincipal.png" alt="Screenshot 1">
+                    <img src="Screenshots/enaldinho/00.png" alt="Screenshot 1">
+                    <img src="Screenshots/enaldinho/002.png" alt="Screenshot 1">
+                    <img src="Screenshots/enaldinho/003.png" alt="Screenshot 1">
+                    <img src="Screenshots/enaldinho/004.png" alt="Screenshot 1">
+                    <img src="Screenshots/enaldinho/005.png" alt="Screenshot 1">
+                    <img src="Screenshots/enaldinho/008.png" alt="Screenshot 1">
+                    <img src="Screenshots/enaldinho/009.png" alt="Screenshot 1">
+                </div>
+                <div class="slider-buttons">
+                    <button class="prev">&#8679;</button>
+                    <button class="next">&#8681;</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="video">
+            <h2>Gameplay Video</h2>
+            <iframe src="https://www.youtube.com/embed/lh9Y_bNtwUQ?si=zm_eIH231FsRAKip" allowfullscreen></iframe>
+        </section>
+
+        <section class="details">
+                    <h2>About the Game</h2>
+                    <p><i>Enaldinho no mundo do ZAP</i> is a adventure odissey, telling the fantasy tale of the famous brazilian youtuber Enaldinho.</p>
+                    <br>
+                    <h3>Game Profile</h3>
+                    <p>Development Status: Released 2022.</p>
+                    <p>Engine and Programming Language: Unity, C#.</p>
+                </section>
+                <br>
+                <section class="details">
+                    <h2>My Contribuitions</h2>
+                   <p>I took part in this project as Santa Clara's(game production company) Lead Programmer and Company partner</p>
+                   <p>I've implemented various mechanics, such as quest system, inventory system, tutorial, movement, combat, enemy AI's, in game store and currency, AD implementation and data saving(both cloud and local).</p>
+                </section>
+    
+            <br>
+           <section class="details">
+               <h2>Play it on a Mobile</h2>
+               <h3><a href="https://play.google.com/store/apps/details?id=com.SantaClaraDesignStudio.EnaldinhoNoMundoDoZAPFree">GAME PAGE - ANDROID</a></h3>
+               <br>
+               <!--<h3><a href="https://play.google.com/store/apps/details?id=com.FishHeadStudios.JumpStar">GAME PAGE - iOS/iPhone</a></h3>-->
+           </section>
+    </div>
+    <footer>
+    	<p>Copyright &copy; 2025 Rafael Alula. All rights reserved.</p>
+    </footer>
+</body>
+</html>

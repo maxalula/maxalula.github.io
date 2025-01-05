@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Compact Laboratories</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="shortcut icon" href="../../images/fsgQuad.ico"/>
+    <link href="resources/games.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="resources/games.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Compact Laboratories</h1>
+    </header>
+    <div class="container">
+        <section class="intro">
+            <p>Compact Laboratories is a 3D service-game</p>
+        </section>
+
+        <section class="images">
+            <h2>Game Screenshots</h2>
+            <div class="slider-container">
+                <div class="slider">
+                    <img src="Screenshots/compact.png" alt="Screenshot 1">
+                </div>
+                <div class="slider-buttons">
+                    <button class="prev">&#8679;</button>
+                    <button class="next">&#8681;</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="video">
+            <h2>Gameplay Video</h2>
+            <iframe src="https://www.youtube.com/embed/oamXVXipOis?si=9ekkc69HN2tD4sz2" allowfullscreen></iframe>
+        </section>
+
+        <section class="details">
+                    <h2>About the Project</h2>
+                    <p><i>Compact Laboratories</i> is a service, that aims to bring to 3D a simulation of a real world problem, like a college class.</p>
+                    <p>With the help of engines such as Unity and Unreal, it is possible to bring cheaper solutions to training employees, or even students of given area.</p>
+                    <h3>Key features include:</h3>
+                    <p>Real life solution integration</p>
+                    <p>3D Fidelity Simulation</p>
+                    <br>
+                    <h3>Project Profile</h3>
+                    <p>Development Status: Finished.</p>
+                    <p>Engines: Unity and Unreal.</p>
+                </section>
+                <br>
+                <section class="details">
+                    <h2>My Contribuitions</h2>
+                   <p>This is an authoral project</p>
+                   <p>It was developed to be used in pitch for potential investors or companies aiming to make it a product that would be an useful asset to their business.</p>
+                </section>
+    </div>
+    <footer>
+    	<p>Copyright &copy; 2025 Rafael Alula. All rights reserved.</p>
+    </footer>
+</body>
+</html>

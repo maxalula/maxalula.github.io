@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Snails Party</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="shortcut icon" href="../../images/fsgQuad.ico"/>
+    <link href="resources/games.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="resources/games.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Snails Party</h1>
+    </header>
+    <div class="container">
+        <section class="intro">
+            <p>Welcome to the project page for the Snails Party Game! Here you'll find images, videos, and details about the gameplay, design, and development process.</p>
+        </section>
+
+        <section class="images">
+            <h2>Game Screenshots</h2>
+            <div class="slider-container">
+                <div class="slider">
+                    <img src="Screenshots/Snails.png" alt="Screenshot 1">
+                    <img src="Screenshots/snails2.png" alt="Screenshot 2">
+                    <img src="Screenshots/snails3.png" alt="Screenshot 3">
+                    <img src="Screenshots/snails4.jpg" alt="Screenshot 4">
+                    <img src="Screenshots/snails5.jpg" alt="Screenshot 5">
+                    <img src="Screenshots/snails6.jpg" alt="Screenshot 6">
+                </div>
+                <div class="slider-buttons">
+                    <button class="prev">&#8679;</button>
+                    <button class="next">&#8681;</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="video">
+            <h2>Gameplay Video</h2>
+            <iframe src="https://www.youtube.com/embed/iWDEYRuydkc?si=i0H9NfhJhJJ4Tb20" allowfullscreen></iframe>
+        </section>
+
+        <section class="details">
+            <h2>About the Game</h2>
+            <p><i>Snails Party</i> is a multiplayer party game made for 4 up to 8 players.</p>
+            <p>Play either friends or AI, using a variety of itens, minigames and much more to make it an even more unique experience.</p>
+            <h3>Key features include:</h3>
+            <p>Online multiplayer</p>
+            <p>Character customization</p>
+            <p>Level system</p>
+            <p>Itens and Inventory</p>
+            <br>
+            <h3>Game Profile</h3>
+            <p>Development Status: Set to release 2025.</p>
+            <p>Engine and Programming Language: Unity, C#.</p>
+        </section>
+        <br>
+        <section class="details">
+            <h2>My Contribuitions</h2>
+           <p>I've developed the multiplayer module using Photon Fusion, ensuring smooth synchronization across player interactions, game logic, and animations.</p>
+           <p>Crafting a robust and intuitive UI system was another crucial focus, making the game accessible and visually engaging.</p>
+           <p>Game States were meticulously designed to manage transitions between player turns, mini-games, and board progression seamlessly.</p>
+           <p>I've also worked on the animation blending, aiming for smoother transitions.</p>
+           <p>My role also touches game design, as in the balacing of the game; I've developed the item's effects and power levels, and balaced via playtests.</p>
+        </section>
+    </div>
+    <footer>
+    	<p>Copyright &copy; 2025 Rafael Alula. All rights reserved.</p>
+    </footer>
+</body>
+</html>
